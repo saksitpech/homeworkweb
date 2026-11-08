@@ -6,40 +6,88 @@
 <title>About me | Your Name</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-peach">
+<body>
 <header class="top">
-  <a class="brand" href="index.html">Creative<br>Portfolio</a>
+  <a class="logo" href="index.html"><span class="star"></span>Your Name</a>
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html" aria-current="page">About me</a>
-    <a href="mywork.html">My work</a>
+    <a href="mywork.html">Work</a>
+    <a class="pill" href="mailto:you@example.com">Get in touch!</a>
   </nav>
 </header>
 
-<main class="about">
-  <span class="spark" style="--s:36px;left:3%;top:8%"></span>
-  <span class="spark" style="--s:24px;left:46%;top:84%;animation-delay:.8s"></span>
-  <span class="spark" style="--s:44px;left:92%;top:10%;animation-delay:1.4s"></span>
-
-  <section>
-    <h1>About me!</h1>
-    <p>Hi everyone! My name is Your Name. I’m a creative who loves turning ideas into things people can see and use.</p>
-    <p>Write a few lines here about what you do, what you’re studying or working on, and the kind of projects you want to take on next.</p>
-    <p>Add your experience, communities or organizations you’ve been part of, and what drives your work.</p>
-    <a class="btn" href="mywork.html">See my work</a>
+<main>
+  <section class="hello">
+    <div>
+      <h1>Hello,<br>I’m Your Name !</h1>
+      <p>Write a short introduction here: what you do, where you are based, what you are studying or working on, and the kind of projects you want to take on next.</p>
+      <a class="link" href="#">linkedin.com/in/yourname</a>
+    </div>
+    <div class="me">
+      <div class="panel">
+        <div class="circle"><img src="images/profile.png" alt="Portrait photo of the site owner"></div>
+      </div>
+      <span class="chip c1">Born: DD Month YYYY</span>
+      <span class="chip c2">Nationality</span>
+      <address class="contact">
+        <h2>Contact</h2>
+        Your city, Your country<br>you@example.com<br>+00 00 000 0000
+      </address>
+    </div>
   </section>
 
-  <section class="me">
-    <div class="blob">
-      <img src="images/profile.png" alt="Portrait photo of the portfolio owner">
+  <section class="cols dark">
+    <div>
+      <h2>Education</h2>
+      <ol class="tl">
+        <li><span class="yr">2022–2024</span><div><b>University or school name</b><span>Program or major</span></div></li>
+        <li><span class="yr">2019–2022</span><div><b>University or school name</b><span>Program or major</span></div></li>
+      </ol>
     </div>
-    <h2>Skills and tools</h2>
-    <ul class="skills">
-      <li>Web design</li>
-      <li>Creative thinking</li>
-      <li>Teamwork</li>
-      <li>Communication</li>
-    </ul>
+    <div class="ghost" data-t="RESUME&#10;RESUME&#10;RESUME">
+      <h2>Technical skills</h2>
+      <h3>Software tools</h3>
+      <div class="tools"><b>Fg</b><b>VS</b><b>Gt</b><b>Ps</b></div>
+      <div class="tags"><span class="tag">Web design</span><span class="tag">UI/UX</span><span class="tag">Front-end</span><span class="tag">Problem solving</span></div>
+    </div>
+  </section>
+
+  <section class="cols">
+    <div class="exp">
+      <h2>Experience</h2>
+      <ol class="tl">
+        <li><span class="yr">2024</span><div><b>Job title</b><span>What you did</span><span>Company, City</span></div></li>
+        <li><span class="yr">2023</span><div><b>Job title</b><span>What you did</span><span>Company, City</span></div></li>
+      </ol>
+      <div class="tags"><span class="tag">#Creativity</span><span class="tag">#Teamwork</span><span class="tag">#Adaptability</span></div>
+    </div>
+    <div>
+      <h2>Language</h2>
+      <div class="lang">
+        <div><h3>English</h3>Level</div>
+        <div><h3>Thai</h3>Native</div>
+        <div><h3>Language</h3>Level</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cols">
+    <div>
+      <h2>Activities</h2>
+      <ol class="tl">
+        <li><span class="yr">2024</span><div><b>Activity or event</b><span>Short description</span></div></li>
+        <li><span class="yr">2023</span><div><b>Activity or event</b><span>Short description</span></div></li>
+      </ol>
+    </div>
+    <div>
+      <h2>Hobbies &amp; Interests</h2>
+      <div class="hob">
+        <div><span class="star" style="--s:2.6rem;--c:var(--amber)"></span>Hobby one</div>
+        <div><span class="star" style="--s:2.6rem;--c:var(--amber)"></span>Hobby two</div>
+        <div><span class="star" style="--s:2.6rem;--c:var(--amber)"></span>Hobby three</div>
+      </div>
+    </div>
   </section>
 </main>
 </body>
